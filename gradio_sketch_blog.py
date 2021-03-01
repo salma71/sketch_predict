@@ -43,4 +43,4 @@ gr.Interface(fn = predict_shape,
              live = True, 
              title=title,
              description = description,
-             capture_session=True).launch(debug=True)
+             capture_session=True).launch()
